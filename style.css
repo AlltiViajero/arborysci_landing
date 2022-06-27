@@ -667,7 +667,7 @@ footer{
 		bottom: 5%;
 	}
 }
-@media screen and (max-width: 470px ) {
+@media screen and (max-width: 500px ) {
 	.slider_show{
 		width: 120%;
 		height: 300px;
@@ -682,6 +682,6 @@ footer{
 		font-size: calc(0.7*var(--font-size));
 		width: auto;
 		padding: 15px;
-		bottom: 5%;
+		bottom: 10%;
 	}
 }
