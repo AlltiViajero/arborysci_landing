@@ -15,18 +15,12 @@ export class Landing {
     ]
     constructor(){
         this.init();
-        this.container;
-        this.description;
-        this.inter;
-        this.img;
-        this.time;
-        this.slider_;
-    }
+    };
     init(){
         this.bind_Elements();
         this.slider();
         this.slider_time();
-    }
+    };
     bind_Elements(){
         this.container = document.querySelector('.container');
         this.description = document.querySelector('.description');
