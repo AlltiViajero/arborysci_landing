@@ -250,7 +250,7 @@ header{
     font-weight: bold;
 	z-index: 2;
 	background: none;
-	padding: 10px;
+	padding: 0px 0px 10px 0px;
 }
 #e-mail{
 	font-size: calc(var(--font-size)*.5);
@@ -261,7 +261,7 @@ header{
 }
 .card:hover p{
 	opacity: 1;
-	transform: translateY(50px);
+	transform: translateY(40px);
 }
 /*stopka*/
 #footer{
@@ -375,8 +375,12 @@ footer{
         width: calc(var(--card-width)*0.75);
 		height: calc(var(--card-height)*0.75);
     }
+	.card p{ 
+		padding: 0px 0px 10px 0px;
+	}
 	.card:hover p{
 		font-size: calc(var(--font-size)*0.7);
+		transform: translateY(20px);
 	}
 	.card .icon{
 		font-size: calc(var(--font-size)*0.7);
